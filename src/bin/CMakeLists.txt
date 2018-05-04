@@ -1,5 +1,14 @@
 find_package(ifm3d 0.9.0 CONFIG REQUIRED COMPONENTS camera framegrabber image)
 find_package(PCL 1.7 REQUIRED COMPONENTS visualization)
+
+#
+# On Windows, glog is built from source as a package.
+# On linux, it's installed through a package manager.
+#
+if(WIN32)
+  find_package(glog REQUIRED)
+endif()
+
 #
 # This is some legacy nonsense we need to deal with, see:
 # https://bugs.launchpad.net/ubuntu/+source/vtk6/+bug/1573234
