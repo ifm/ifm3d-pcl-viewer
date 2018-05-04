@@ -38,14 +38,14 @@ $ sudo dpkg -i ifm3d-pcl-viewer_0.1.0_amd64.deb
 Running the Software
 --------------------
 
-Assuming you followed the instruction from above for installation, you should
+Assuming you followed the instructions from above for installation, you should
 now have `ifm3d-pcl-viewer` installed at `/usr/bin/ifm3d-pcl-viewer`. Running
 the executable on the command line, should result in a window similar to the
 following:
 
 ![viewer](doc/figures/ifm3d_viewer.png)
 
-If you camera is not located at the default IP address of `192.168.0.69`, you
+If your camera is not located at the default IP address of `192.168.0.69`, you
 can leverage the `IFM3D_IP` environment variable when running the viewer to
 help visualize the point cloud. For example, if your camera is located at
 `192.168.1.69`, you would run the exectuable as follows:
