@@ -40,7 +40,7 @@ public:
     int win_w = 800;
     int win_h = 600;
 
-    auto fg = std::make_shared<ifm3d::FrameGrabber>(this->cam_, 0xFFFF);
+    auto fg = std::make_shared<ifm3d::FrameGrabber>(this->cam_);
     auto buff = std::make_shared<ifm3d::ImageBuffer>();
 
     //
