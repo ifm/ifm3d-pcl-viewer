@@ -27,6 +27,7 @@ target_link_libraries(ifm3d-pcl-viewer
                       ifm3d::framegrabber
                       ifm3d::image
                       ${PCL_VISUALIZATION_LIBRARIES}
+                      ${PCL_VTK_COMPONENTS}
                       )
 
 install(TARGETS ifm3d-pcl-viewer DESTINATION ${_bin})
