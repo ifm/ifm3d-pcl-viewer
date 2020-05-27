@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.5)
 cmake_policy(SET CMP0048 NEW)
-project(IFM3D_PCL_VIEWER VERSION 0.1.0 LANGUAGES CXX)
+project(IFM3D_PCL_VIEWER VERSION 0.2.0 LANGUAGES CXX)
 set(GIT_PROJECT_NAME "ifm3d-pcl-viewer")
 
 # Make our cmake functions accessible
